@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        
+        <form class="form" action="http://maximumstart.herokuapp.com/register" method="POST">
+            <h1 >Регистрация</h1>
+        <p>*Все поля обязательны для заполнения</p>
+        <p>
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name">
+            </p>
+            
+            <p>
+                <label for="surname">Фамилия</label>
+                <input type="text" name="surname" id="surname">
+            </p>
+           
+            <p>
+                    <label for="phone">Телефон</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+38(0XX)XXX-XXXX">
+            </p>
+
+            <p>
+                <label for="color">Любимый цвет</label>
+                <input type="color" name="color" id="color" value="black">
+            </p>
+            <p>
+                    <label for="date">Сегоднешнее число</label>
+                    <input type="date" name="date" id="date" required>
+            </p>
+
+            <p>
+                    <label for="password">Пароль</label>
+                    <input type="password" name="password" id="color" required>
+            </p>
+
+            <p>
+                    <input type="radio" name="gender" id="male" value="Мальчик">
+                    <label for="male">Мальчик</label>
+                    
+            </p>
+
+            <p>
+                    <input type="radio" name="gender" id="female" value="Девочка">
+                    <label for="female">Девочка</label>
+                    
+            </p>
+
+            <p>
+                    <input type="radio" name="gender" id="non-gender" value="Не определился">
+                    <label for="non-gender">Не определился</label>
+                    
+            </p>
+
+            <p>
+                    <label for="message">Сообщение</label>
+                    <textarea rows="5" name="message" id="message">
+                    </textarea>         
+            </p>
+
+            <input type="submit" value="Отправить">
+
+        </form>
+    </body>
+    </html>
