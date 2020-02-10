@@ -1,0 +1,49 @@
+
+/*
+	Дополните файл своим CSS-кодом :)
+*/
+
+* {
+	font-family: sans-serif;
+}
+
+.article__more {
+    text-decoration: none;
+    /* color: black; */
+}
+
+.article {
+    line-height: 27px;
+    height:  164px;
+	width:  auto;
+	margin: 30px;
+	margin-right: 10px;
+	padding: 10px 30px 10px 30px;
+	background-color: #ccc;
+	border: 1px dashed black;
+}
+
+.article a {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+    text-align: center;
+    height:  150px;
+	width:  auto;
+	margin-top: 13px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #e5e5e5;
+	border: none;
+}
+
+.footer {
+    height:  19px;
+	width:  auto;
+	padding: 15px;
+	background-color: #e5e5e5;
+	border-top: 1px solid black;
+}
+
